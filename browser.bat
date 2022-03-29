@@ -12,6 +12,6 @@ cls
 goto GTS
 :update
 echo Downloading Update...
-curl https://cdn-143.anonfiles.com/1d80NfR1xf/5f1bad2c-1648566628/browser.bat >> browser.bat
+curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/browser.bat >> browser.bat
 pause
 echo Please restart your Browser!
