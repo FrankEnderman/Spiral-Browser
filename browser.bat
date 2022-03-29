@@ -12,8 +12,4 @@ cls
 goto GTS
 :update
 echo Downloading Update...
-curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/browser.bat >> browser.bat
-pause
-echo Please start your Browser again! -PRESS ANY KEY TO EXIT-
-pause
-exit
+call updsys.bat
