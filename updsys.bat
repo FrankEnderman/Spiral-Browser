@@ -1,4 +1,6 @@
 @echo off
 :: Update Spiral
-curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/browser.bat >> browserTEMP.bat
-call browser.bat
+echo Updating...
+curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/browser.bat > browser.bat
+echo Update Finished!
+pause
