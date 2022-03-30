@@ -8,7 +8,8 @@ echo For the latest updates, redownload it using GitHub.
 
 set /p URL= URL:
 echo.
-curl https://%URL%
+curl https://www.%URL%
+echo.
 pause
 cls
 goto GTS
