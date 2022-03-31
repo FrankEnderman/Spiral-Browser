@@ -1,7 +1,7 @@
 @echo off
 :: Starts up the browser
 :MAIN
-title Spiral 0.31 Red (Preview/Beta)
+title Spiral 0.31 Red 
 color 02
 curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/DEPNOTICE
 echo --------------------------------------------------------------
