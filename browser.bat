@@ -1,7 +1,7 @@
 @echo off
 :: Starts up the browser
 :MAIN
-title Spiral 0.40 Crescent Moon (LTS)
+title Spiral 0.40 Crescent Moon 
 color 02
 curl https://raw.githubusercontent.com/FrankEnderman/Spiral-Browser/main/DEPNOTICE
 echo --------------------------------------------------------------
@@ -18,7 +18,7 @@ cls
 set /p URL= URL:
 echo.
 curl https://www.%URL%
-echo %URL% %time% >> bl.log
+
 echo.
 pause
 cls
