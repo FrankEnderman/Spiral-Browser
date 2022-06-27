@@ -14,6 +14,7 @@ if %OPT1% == 1 goto loadpage
 :: Downloads page
 if %OPT1% == 2 goto downpage
 :loadpage
+cls
 set /p URL= URL:
 echo.
 curl https://www.%URL%
@@ -23,6 +24,7 @@ pause
 cls
 goto MAIN
 :downpage
+cls
 set /p URL1= URL:
 set /p NAME= FileName:
 curl %URL% >> %NAME%
